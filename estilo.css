@@ -1,0 +1,103 @@
+/*limpar formatações padrões*/
+*{
+    margin: 0;
+    padding: 0;
+    }
+
+    body{
+        font-size: 1em;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        background:rgb(132, 132, 218);
+    }
+
+    /*Layout*/
+
+    #cabeçalho {
+        background-color:goldenrod;
+        padding: 15px;
+        text-align: center;
+    }
+    #logo, #menu{
+        padding: 10px;
+    }
+    #area{
+        padding: 15px;
+        width: 920px;/*padrão para dispositos modernos*/
+        margin: 0 auto;
+    }
+    #area-post,#area-lateral{
+        background: white;
+    }
+    #area-post{
+        width: 660px;
+        float: left;
+    }
+    #area-lateral{        
+        width: 240px;
+        float: right;
+    }
+    #rodape{
+        clear: both;
+        text-align: center;
+        padding: 15px;
+        background:#ccc;
+    }
+    .postagem{
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+    h1{
+        color:rgb(132, 132, 218);
+    }
+    h2{
+        color:goldenrod ;
+    }
+    h3{
+        color: #565656;
+        background: gray;
+    }
+
+    .branco{
+        color: white;
+    }
+    .data{
+        font-size: 0.8em;
+        border-bottom: 2px solid #f4f4f4;
+        margin-bottom: 10px;
+        display: block;
+    }
+    .conteudo-lateral{
+        background: white;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+    .postagem-lateral{
+        font-size: 0.8em;
+        padding: 5px;
+        border-bottom:solid grey;
+    }
+    
+    /*menu*/
+    a{
+        text-decoration: none;
+    }
+   #cabeçalho a:link, #cabeçalho a:visited{
+        color:white ;
+        padding: 8px;
+        
+    }
+    #cabeçalho a:hover{
+        color: palegoldenrod;
+        background: whitesmoke;
+        text-decoration: none;
+            }
+
+           a:link, a:visited{
+                color:rgb(96, 96, 163) ;
+                padding: 8px;
+                
+            }
+           a:hover{
+                color: palegoldenrod;
+                text-decoration: underline;
+                    }
